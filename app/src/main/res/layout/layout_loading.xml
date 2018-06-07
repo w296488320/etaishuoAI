@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              xmlns:com.wang.avi.AVLoadingIndicatorViewandroid="http://schemas.android.com/tools"
+              android:layout_gravity="center"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!--<lyh.com.face.view.loadingdialog.AVLoadingIndicatorView-->
+            <!--android:layout_width="74dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--app:indicator="BallPulse"/>-->
+
+
+        <!--<com.wang.avi.AVLoadingIndicatorViewandroid:-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_width="74dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:indicatorName="BallPulseIndicator"-->
+        <!--/>-->
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/av_loading"
+                android:layout_gravity="center"
+                android:layout_width="@dimen/x74"
+                android:layout_height="wrap_content"
+                app:indicatorName="BallPulseIndicator"
+                />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="加载中..."
+            android:textSize="25sp"
+            android:textColor="@color/text_common_color"/>
+
+    </LinearLayout>
+
+</LinearLayout>

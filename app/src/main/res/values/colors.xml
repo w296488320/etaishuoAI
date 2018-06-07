@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+
+    <color name="text_common_color">#333333</color>
+    <color name="text_second_color">#666666</color>
+    <color name="text_note_color">#999999</color>
+    <color name="text_third_color">#cccccc</color>
+    <color name="line_common_color">#dcdcdc</color>
+    <color name="text_note_color_v3">#a2b5c9</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="text_for_origin_bg">#FFE4E5</color>
+    <color name="fense_bg">#FF787F</color>
+    <color name="text_blue_color">#5B8DFF</color>
+    <color name="bg_card_tip">#65C2FF</color>
+    <color name="text_blue_color_second">#F4F8FF</color>
+    <color name="chengse_bg">#FFBB5E</color>
+    <color name="common_growth_bg">#f4f8ff</color>
+    <color name="bottom_lfet_color">#62cfaf</color>
+    <color name="right_tab_sel_color">#65C2FF</color>
+
+    <color name="SpecialGreen">#1bbc9c</color>
+    <color name="White">#000</color>
+    <color name="Blue">#1799ff</color>
+    <color name="Gary">#cccccc</color>
+    <color name="btn_normal">#00ACFF</color>
+    <color name="custom_line">#dddddd</color>
+
+</resources>

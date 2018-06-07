@@ -1,0 +1,51 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.etaishuo.aitest"
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    compile files('libs/bdasr_V3_20180320_9066860.jar')
+    implementation 'com.google.code.gson:gson:2.2.4'
+
+
+
+
+    compile 'com.squareup.retrofit2:retrofit:2.3.0'
+    // Retrofit库
+    compile 'com.squareup.okhttp3:okhttp:3.8.1'
+
+    compile 'com.squareup.retrofit2:converter-gson:2.3.0'
+
+    compile 'com.github.SilenceDut:jpinyin:v1.0'
+
+    //打印ref2log的 依赖
+    compile 'com.squareup.okhttp3:logging-interceptor:3.8.1'
+
+    compile 'com.wang.avi:library:2.1.3'
+
+}

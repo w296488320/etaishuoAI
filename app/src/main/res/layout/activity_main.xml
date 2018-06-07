@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="aitest.etaishuo.com.myapplication.MainActivity">
+
+<LinearLayout
+    android:gravity="center"
+    android:padding="@dimen/x20"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <Button
+        android:id="@+id/bt_luyin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="近景"/>
+
+
+    <Button
+        android:id="@+id/bt_yuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="远景"/>
+
+
+
+    <Button
+        android:id="@+id/bt_qingkong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="清空"/>
+
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+         <ListView
+             android:id="@+id/lv_name"
+             android:layout_weight="0.5"
+             android:layout_width="0dp"
+             android:layout_height="match_parent">
+         </ListView>
+
+        <ListView
+            android:id="@+id/lv_restu"
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+        </ListView>
+
+    <!--<ScrollView-->
+        <!--android:layout_weight="1.5"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent">-->
+
+
+
+        <!--<TextView-->
+            <!--android:text=""-->
+            <!--android:id="@+id/tv_pingfen"-->
+            <!--android:textSize="23sp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"/>-->
+
+
+    <!--</ScrollView>-->
+
+        <ListView
+            android:id="@+id/lv_pingfen"
+            android:layout_weight="1.5"
+             android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+        </ListView>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

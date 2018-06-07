@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+
+    <string name="input_sid">   请输入学校id</string>
+    <string name="sid">sid</string>
+
+
+    <string name="checkinput">考勤</string>
+    <string name="title_activity_base">BaseActivity</string>
+</resources>
